@@ -14,5 +14,6 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error', { singleQuote: true }],
+    'vue/multi-word-component-names': 'off',
   },
 };
