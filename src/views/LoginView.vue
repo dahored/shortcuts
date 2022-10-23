@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import LoginModule from '@/components/organisms/LoginModule.vue';
+</script>
 
 <template>
-  <main>Hola mundo</main>
+  <main>
+    <LoginModule />
+  </main>
 </template>
